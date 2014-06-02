@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/panel">
+    
+	<br.com.lucasaquiles.cogg.view.ImageScrollerView
+	   android:id="@+id/scroller"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentLeft="true" >
+	</br.com.lucasaquiles.cogg.view.ImageScrollerView>
+
+	<RelativeLayout
+	    android:id="@+id/face"
+	    android:layout_width="163dp"
+	    android:layout_height="212dp"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="20dp"
+	    android:background="@drawable/face"
+	    android:paddingTop="1dp" >
+		
+	    <FrameLayout
+	        android:id="@+id/frameHair"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignWithParentIfMissing="false"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="-3dp"
+	        android:background="@drawable/hair_4_selected"
+	        android:gravity="top"
+	         >
+	
+		</FrameLayout>
+	    
+		<FrameLayout
+		    android:id="@+id/frameEyes"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    android:layout_centerHorizontal="true"
+		    android:layout_marginTop="62dp"
+		    android:background="@drawable/eye_selected" >
+		</FrameLayout>
+
+	</RelativeLayout>
+
+</RelativeLayout>
