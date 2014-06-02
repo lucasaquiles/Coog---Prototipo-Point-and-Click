@@ -10,6 +10,10 @@ package br.com.lucasaquiles.cogg;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int background_color=0x7f050000;
+        public static final int text_color=0x7f050001;
+    }
     public static final class drawable {
         public static final int blank_border=0x7f020000;
         public static final int border=0x7f020001;
@@ -34,14 +38,17 @@ public final class R {
         public static final int mouth_5=0x7f020014;
     }
     public static final class id {
-        public static final int face=0x7f060002;
-        public static final int frameEyes=0x7f060004;
-        public static final int frameHair=0x7f060003;
-        public static final int panel=0x7f060000;
-        public static final int scroller=0x7f060001;
+        public static final int face=0x7f070002;
+        public static final int frameEyes=0x7f070004;
+        public static final int frameHair=0x7f070003;
+        public static final int imageView1=0x7f070005;
+        public static final int panel=0x7f070000;
+        public static final int scroller=0x7f070001;
+        public static final int textView1=0x7f070006;
     }
     public static final class layout {
         public static final int main_layout=0x7f030000;
+        public static final int splash_screen=0x7f030001;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
@@ -57,10 +64,10 @@ public final class R {
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f050000;
+        public static final int AppBaseTheme=0x7f060000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f050001;
+        public static final int AppTheme=0x7f060001;
     }
 }

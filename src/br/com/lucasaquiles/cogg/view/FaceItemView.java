@@ -1,7 +1,6 @@
 package br.com.lucasaquiles.cogg.view;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
@@ -50,13 +49,10 @@ public abstract class FaceItemView extends ImageView implements OnClickListener{
 		
 		if(tmpClickedItem != null){
 			
-//			tmpClickedItem.setBackgroundColor(Color.rgb(255, 228, 235));
-			//tmpClickedItem.setBackgroundResource(R.drawable)
 			tmpClickedItem.setBackgroundResource(R.drawable.blank_border);
 			tmpClickedItem = null;
 		}
 		
-//		faceItemView.setBackgroundColor(Color.rgb(72, 202, 194));
 		faceItemView.setBackgroundResource(R.drawable.border);
 		tmpClickedItem = faceItemView;
 		
