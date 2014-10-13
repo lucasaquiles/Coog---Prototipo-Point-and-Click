@@ -3,5 +3,6 @@
     <string name="app_name">Cogg - Point and Click</string>
 	
     <color name="background_color">#48cac2ff</color>
+    <color name="background_indicator">#333333</color>
     <color name="text_color">#ffffff</color>
 </resources>

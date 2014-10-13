@@ -6,8 +6,6 @@ public class MouthView extends FaceItemView{
 	
 	public MouthView(Context context, ImageItemEnum imageItem) {
 		super(context, imageItem);
-		
-		
 	}
 
 	@Override

@@ -115,6 +115,56 @@ public enum ImageItemEnum {
 		}
 		
 	},
+	
+	MOUTH_1(""){
+
+		@Override
+		public int getDisplayedResource() {
+			
+			return R.drawable.mouth_1;
+		}
+
+		@Override
+		public int getSelectedResource() {
+	
+			return R.drawable.mouth_1_selected;
+		}
+		
+	},
+	
+	
+	MOUTH_2(""){
+
+		@Override
+		public int getDisplayedResource() {
+			
+			return R.drawable.mouth_2;
+		}
+
+		@Override
+		public int getSelectedResource() {
+	
+			return R.drawable.mouth_2_selected;
+		}
+		
+	},
+	
+	MOUTH_3(""){
+
+		@Override
+		public int getDisplayedResource() {
+			
+			return R.drawable.mouth_3;
+		}
+
+		@Override
+		public int getSelectedResource() {
+	
+			return R.drawable.mouth_3_selected;
+		}
+		
+	}
+	
 	;
 	
 	private String displayedImage;

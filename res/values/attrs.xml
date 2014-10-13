@@ -1,0 +1,7 @@
+<resources>
+
+   <declare-styleable name="Indicator">
+        <attr name="indicator" format="reference" />
+    </declare-styleable>
+<!--  custom:indicator="@+id/indicator_wrapper"  -->
+</resources>

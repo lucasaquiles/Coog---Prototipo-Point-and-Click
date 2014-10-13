@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hmkcode="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="100"
+        hmkcode:showAsAction="always"
+        android:icon="@drawable/ic_action_save"
+        android:title="Salvar"/>
+    <item
+        android:id="@+id/action_copy"
+        android:orderInCategory="100"
+        hmkcode:showAsAction="always"
+        android:icon="@drawable/ic_launcher"
+        android:title="Copy"/>
+   
+</menu>

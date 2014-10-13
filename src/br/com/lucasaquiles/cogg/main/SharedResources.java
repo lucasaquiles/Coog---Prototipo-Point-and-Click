@@ -7,6 +7,7 @@ public class SharedResources {
 	private static SharedResources instance = null;
 	private FrameLayout frameEyes = null;
 	private FrameLayout frameHair = null;
+	private FrameLayout frameMouth = null;
 	
 	protected SharedResources(){}
 	
@@ -33,5 +34,13 @@ public class SharedResources {
 	
 	public void setFrameHair(FrameLayout frameHair) {
 		this.frameHair = frameHair;
+	}
+	
+	public void setFrameMouth(FrameLayout frameMouth) {
+		this.frameMouth = frameMouth;
+	}
+	
+	public FrameLayout getFrameMouth() {
+		return frameMouth;
 	}
 }

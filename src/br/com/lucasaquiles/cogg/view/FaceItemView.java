@@ -47,6 +47,10 @@ public abstract class FaceItemView extends ImageView implements OnClickListener{
 			instance.getFrameHair().setBackgroundResource(displayedResource);
 		}
 		
+		if(faceItemView.isMouth()){
+			instance.getFrameMouth().setBackgroundResource(displayedResource);
+		}
+		
 		if(tmpClickedItem != null){
 			
 			tmpClickedItem.setBackgroundResource(R.drawable.blank_border);

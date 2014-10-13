@@ -1,57 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res/br.com.lucasaquiles.cogg"
     android:layout_height="match_parent" android:id="@+id/panel">
     
-		<Button
-		    android:id="@+id/save"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:layout_alignParentTop="true"
-		    android:layout_centerHorizontal="true"
-		    android:text="salvar" />
-		
-	<br.com.lucasaquiles.cogg.view.ImageScrollerView
-	   android:id="@+id/scroller"
-       android:layout_width="fill_parent"
-       android:layout_height="wrap_content"
-       android:layout_alignParentBottom="true"
-       android:layout_alignParentLeft="true" >
-	</br.com.lucasaquiles.cogg.view.ImageScrollerView>
-	
-	<RelativeLayout
-	    android:id="@+id/face"
-	    android:layout_width="163dp"
-	    android:layout_height="212dp"
-	    android:layout_centerInParent="true"
-	    android:layout_marginTop="20dp"
-	    android:background="@drawable/face"
-	    android:paddingTop="1dp" >
-		
-	    <FrameLayout
-	        android:id="@+id/frameHair"
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:layout_alignParentTop="true"
-	        android:layout_alignWithParentIfMissing="false"
-	        android:layout_centerHorizontal="true"
-	        android:layout_marginTop="-3dp"
-	        android:background="@drawable/hair_4_selected"
-	        android:gravity="top"
-	         >
-	
-		</FrameLayout>
-	    
-		<FrameLayout
-		    android:id="@+id/frameEyes"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:layout_alignParentTop="true"
-		    android:layout_centerHorizontal="true"
-		    android:layout_marginTop="62dp"
-		    android:background="@drawable/eye_selected" >
-		</FrameLayout>
-		
+	<RelativeLayout android:layout_width="match_parent" 
+	    android:layout_height="match_parent" 
+	    android:layout_centerHorizontal="true"
+	    android:layout_alignParentBottom="true">
+			<br.com.lucasaquiles.cogg.view.ImageScrollerView
+			   android:id="@+id/scroller"
+		       android:layout_width="fill_parent"
+		       android:layout_height="wrap_content"
+		       android:layout_alignParentBottom="true"
+		       android:layout_alignParentLeft="true" >
+			</br.com.lucasaquiles.cogg.view.ImageScrollerView>
+
+			<RelativeLayout
+			    android:id="@+id/face"
+			    android:layout_width="163dp"
+			    android:layout_height="212dp"
+			    android:layout_alignParentBottom="false"
+			    android:layout_alignParentLeft="false"
+			    android:layout_alignParentRight="true"
+			    android:layout_alignParentTop="false"
+			    android:layout_centerHorizontal="false"
+			    android:layout_centerInParent="false"
+			    android:layout_centerVertical="false"
+			    android:layout_marginLeft="150dp"
+			    android:layout_marginRight="15dp"
+			    android:layout_marginTop="142dp"
+			    android:background="@drawable/face"
+			    android:paddingTop="1dp" >
+
+			    <FrameLayout
+			        android:id="@+id/frameHair"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentTop="true"
+			        android:layout_alignWithParentIfMissing="false"
+			        android:layout_centerHorizontal="true"
+			        android:layout_marginTop="-3dp"
+			        android:background="@drawable/hair_4_selected"
+			        android:gravity="top" >
+			    </FrameLayout>
+
+			    <FrameLayout
+			        android:id="@+id/frameEyes"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentTop="true"
+			        android:layout_centerHorizontal="true"
+			        android:layout_marginTop="62dp"
+			        android:background="@drawable/eyes_1_selected" >
+			    </FrameLayout>
+
+			    <FrameLayout
+			        android:id="@+id/frameMouth"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentTop="true"
+			        android:layout_centerHorizontal="true"
+			        android:layout_marginTop="115dp"
+			        android:background="@drawable/mouth_1_selected" >
+			    </FrameLayout>
+			</RelativeLayout>
+
+			<RelativeLayout
+			    android:id="@+id/foto"
+			    android:layout_width="130dp"
+			    android:layout_height="wrap_content"
+			    android:layout_alignBottom="@+id/face"
+			    android:layout_alignParentLeft="false"
+			    android:layout_alignTop="@+id/face"
+			    android:layout_centerVertical="false"
+			    android:layout_marginLeft="10dp" >
+
+			    <ImageView
+			        android:id="@+id/imageView1"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_centerHorizontal="true"
+			        android:layout_centerVertical="false"
+			        android:src="@drawable/face" />
+			    
+			</RelativeLayout>
+
 	</RelativeLayout>
 
+	
+	
 </RelativeLayout>
