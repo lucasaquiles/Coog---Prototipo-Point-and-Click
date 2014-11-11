@@ -62,13 +62,19 @@ public class MainActivity extends android.support.v7.app.ActionBarActivity imple
 		
 		String imagePath = intent.getStringExtra("selectedImage");
 		
-		Toast.makeText(this, imagePath, Toast.LENGTH_LONG).show();
-		
 		Bitmap bitmap2 = BitmapFactory.decodeFile(imagePath);
 		selectedImageView.setImageBitmap(bitmap2);
 		
+	
 	}
 
+	@Override
+	public void onBackPressed() {
+		
+		moveTaskToBack(true); 
+	    MainActivity.this.finish();
+	}
+	
 	@Override
 	public void onClick(View v) {
 	}

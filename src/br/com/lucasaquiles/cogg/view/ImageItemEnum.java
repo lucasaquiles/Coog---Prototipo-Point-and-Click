@@ -51,6 +51,54 @@ public enum ImageItemEnum {
 		
 	},
 	
+	EYE_4(""){
+
+		@Override
+		public int getDisplayedResource() {
+			
+			return R.drawable.eye_4;
+		}
+
+		@Override
+		public int getSelectedResource() {
+	
+			return R.drawable.selected_4_eye;
+		}
+		
+	},
+	
+	EYE_5(""){
+
+		@Override
+		public int getDisplayedResource() {
+			
+			return R.drawable.eye_5;
+		}
+
+		@Override
+		public int getSelectedResource() {
+	
+			return R.drawable.selected_5_eye;
+		}
+		
+	},
+	
+	EYE_6(""){
+
+		@Override
+		public int getDisplayedResource() {
+			
+			return R.drawable.eye_6;
+		}
+
+		@Override
+		public int getSelectedResource() {
+	
+			return R.drawable.selected_6_eye;
+		}
+		
+	},
+	
 	
 	HAIR_1(""){
 
@@ -112,6 +160,22 @@ public enum ImageItemEnum {
 		public int getSelectedResource() {
 	
 			return R.drawable.hair_4_selected;
+		}
+		
+	},
+	
+	HAIR_5(""){
+
+		@Override
+		public int getDisplayedResource() {
+			
+			return R.drawable.hair_5;
+		}
+
+		@Override
+		public int getSelectedResource() {
+	
+			return R.drawable.hair_5_selected;
 		}
 		
 	},

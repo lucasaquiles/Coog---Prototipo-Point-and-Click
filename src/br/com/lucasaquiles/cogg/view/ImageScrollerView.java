@@ -77,10 +77,16 @@ public class ImageScrollerView extends HorizontalScrollView{
 		scrollLayout.addView(faceItem);
 		scrollLayout.addView(faceItem2);
 		scrollLayout.addView(faceItem3);
+		
+		scrollLayout.addView(new EyeView(this.getContext(), ImageItemEnum.EYE_4));
+		scrollLayout.addView(new EyeView(this.getContext(), ImageItemEnum.EYE_5));
+		scrollLayout.addView(new EyeView(this.getContext(), ImageItemEnum.EYE_6));
+		
 		scrollLayout.addView(new HairView(this.getContext(), ImageItemEnum.HAIR_1));
 		scrollLayout.addView(new HairView(this.getContext(), ImageItemEnum.HAIR_2));
 		scrollLayout.addView(new HairView(this.getContext(), ImageItemEnum.HAIR_3));
 		scrollLayout.addView(new HairView(this.getContext(), ImageItemEnum.HAIR_4));
+		scrollLayout.addView(new HairView(this.getContext(), ImageItemEnum.HAIR_5));
 		scrollLayout.addView(new MouthView(this.getContext(), ImageItemEnum.MOUTH_1));
 		scrollLayout.addView(new MouthView(this.getContext(), ImageItemEnum.MOUTH_2));
 		scrollLayout.addView(new MouthView(this.getContext(), ImageItemEnum.MOUTH_3));

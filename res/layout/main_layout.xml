@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
     xmlns:custom="http://schemas.android.com/apk/res/br.com.lucasaquiles.cogg"
-    android:layout_height="match_parent" android:id="@+id/panel">
+    android:id="@+id/panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="-1dp" >
     
 	<RelativeLayout android:layout_width="match_parent" 
 	    android:layout_height="match_parent" 
@@ -31,7 +33,7 @@
 			    android:layout_marginRight="15dp"
 			    android:layout_marginTop="122dp"
 			    android:background="@drawable/face"
-			    android:paddingTop="1dp" >
+			    android:paddingTop="0dp" >
 
 			    <FrameLayout
 			        android:id="@+id/frameHair"
@@ -40,7 +42,7 @@
 			        android:layout_alignParentTop="true"
 			        android:layout_alignWithParentIfMissing="false"
 			        android:layout_centerHorizontal="true"
-			        android:layout_marginTop="-3dp"
+			        android:layout_marginTop="-1.2dp"
 			        android:background="@drawable/hair_4_selected"
 			        android:gravity="top" >
 			    </FrameLayout>

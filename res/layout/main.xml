@@ -6,6 +6,7 @@
     android:orientation="vertical" >
 
     <Button
+        
         android:id="@+id/choosePicButton"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
